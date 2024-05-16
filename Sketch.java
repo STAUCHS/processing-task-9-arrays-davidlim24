@@ -4,6 +4,7 @@ public class Sketch extends PApplet {
 
   float[] snowX = new float[42];
   float[] snowY = new float[42];
+  boolean[] blnHideStatus = new boolean[42];
   int snowDiameter = 10;
   int snowSpeed = 2;
 
